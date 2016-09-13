@@ -1,0 +1,32 @@
+html
+	head
+		title Salutis
+		meta(charset="utf-8")
+		meta(name="viewport", content="width=device-width, user-scalable=no")
+		link(href="css/index.css" rel="stylesheet")
+		link(href="css/normalize.css" rel="stylesheet")
+		
+	body
+		section.section-wrap
+			nav
+				div.logo-image
+					img(src="images/salutis.svg")
+				div.nav-info data title
+				div.nav-selectors
+					div
+						img(src="images/lista-paciente.svg")
+					div
+						img(src="images/lista-consulta.svg")
+			div.container
+				aside
+					include ./components/aside/index.jade
+				main 
+					div.main__wrap
+						div.icon-tab
+							include ./components/tabicons/index.jade
+						div.section
+							include ./components/main_consulta/index.jade
+					dib.main__footer
+							include ./components/footer/index.jade
+
+				//- aside

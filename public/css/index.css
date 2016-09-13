@@ -1,0 +1,208 @@
+body {
+  max-heigt: 100vh;
+  font-family: 'Kozuka Gothic Pr6N';
+}
+body .wrap {
+  display: flex;
+}
+.section-wrap {
+  background: #f6f5f5;
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+}
+.section-wrap nav {
+  background: #d8d8d8;
+  height: 5em;
+  display: flex;
+}
+.section-wrap nav .logo-image {
+  width: 12em;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.section-wrap nav .logo-image img {
+  width: 80%;
+}
+.section-wrap nav .nav-info {
+  flex-grow: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.4em;
+  color: #00b0b3;
+  font-weight: bold;
+}
+.section-wrap nav .nav-selectors {
+  display: flex;
+  align-items: center;
+}
+.section-wrap nav .nav-selectors div {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.section-wrap .container {
+  height: 100%;
+  display: flex;
+}
+.section-wrap .container aside {
+  background: #7d7d7d;
+  width: 12em;
+}
+.section-wrap .container main {
+  max-height: 100%;
+  flex-grow: 2;
+  display: flex;
+  flex-flow: column;
+}
+.section-wrap .container main .main__wrap {
+  width: 100%;
+  flex-grow: 2;
+  display: flex;
+  flex-flow: column;
+}
+.section-wrap .container main .main__wrap .icon-tab {
+  height: 3em;
+  padding: 0.7em;
+}
+.section-wrap .container main .main__wrap .section {
+  flex-grow: 2;
+  display: flex;
+}
+.section-wrap .container main .main__footer {
+  background-color: #00b0b3;
+}
+.main__consulta {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+}
+.main__consulta >article {
+  display: flex;
+}
+.main__consulta >article div.component_wrap {
+  padding: 0.7em;
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+}
+.main__consulta >article div.component_wrap .component {
+  background-color: #fff;
+  display: flex;
+  flex-flow: column;
+  flex-grow: 2;
+}
+.main__consulta >article div.component_wrap .component__title {
+  background-color: #00b0b3;
+  color: #fff;
+  padding: 0.2em;
+}
+.main__consulta >article div.component_wrap .component__container {
+  display: flex;
+  padding: 0.2em;
+}
+.main__consulta.one >article {
+  width: 100%;
+}
+.main__consulta.three_or_tow >article {
+  width: 50%;
+}
+.main__consulta.three_or_tow >article:nth-child(3) {
+  width: 100%;
+}
+.main__consulta.four >article {
+  width: 50%;
+}
+.aside_wrap {
+  margin-top: 2em;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 11em;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  color: #fff;
+}
+.aside_wrap .patient_img {
+  background: #fff;
+  width: 10em;
+  height: 10em;
+  border-radius: 10em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aside_wrap .item-list {
+  margin-top: 2em;
+  width: 80%;
+}
+.aside_wrap .item-list .item {
+  font-size: 0.8em;
+  margin-bottom: 1em;
+  display: flex;
+  flex-flow: column;
+}
+.aside_wrap .item-list .item span:nth-child(1) {
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: solid 1px #d3d3d3;
+}
+.icons_wrap {
+  display: flex;
+}
+.icons_wrap >a {
+  width: 16.66%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: ease 0.3s all;
+}
+.icons_wrap >a:visited {
+  color: #808080;
+}
+.icons_wrap >a:hover {
+  background: #fff;
+}
+.icons_wrap >a span {
+  margin-left: 1em;
+  colot: #808080;
+  font-size: 1.2em;
+}
+.footer_wrap {
+  padding: 1em;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer_wrap .right {
+  display: flex;
+}
+.footer_wrap .center {
+  display: flex;
+}
+button.circle {
+  background: #fff;
+  padding: 0.2em;
+  color: #808080;
+  width: 3em;
+  height: 3em;
+  border: none;
+  border-radius: 5em;
+  text-transform: uppercase;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+button.pdf {
+  background: #fff;
+  padding: 0.2em;
+  color: #808080;
+  width: 7em;
+  border: none;
+  border-radius: 5em;
+  text-transform: uppercase;
+}
